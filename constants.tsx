@@ -9,7 +9,7 @@ export const INITIAL_VIDEOS: VideoItem[] = [
 ];
 
 export const INITIAL_GALLERY: GalleryItem[] = [
-  { id: '1', imageUrl: 'https://i.ytimg.com/an/aJ45q-LVMthB7Gtm1-CxiA/featured_channel.jpg?v=676d4d81', caption: '1 Year Birthday' },
+  { id: '1', imageUrl: 'https://yt3.ggpht.com/SLNjqKxP6bsg2uLa96Ikfbc908QDaoCdggVr48EBVMDe8XOo-YI8t7HBU5ZehBdk25AfW5azgakSkDk=s800-rw-nd-v1', caption: '1 Year Birthday' },
   { id: '2', imageUrl: 'https://yt3.ggpht.com/l9h0aTSPb5FVAO5A7vfGaagdS2tw8VTmnA4r6ilRiv2bESFMAYaO-TAWWXx1ytG8UM4kH8xVJNpiSA=s800-c-fcrop64=1,00000000ffffffff-rw-nd-v1', caption: 'Motivational postr' },
   { id: '3', imageUrl: 'https://yt3.ggpht.com/jxNtGpwbStBqiWdlhWa4AGS8XM_oDA_in58MahnSsUEqFYq69c-oTrcP2KN9oTgOP3_GRV5uMGoAPQ=s800-rw-nd-v1', caption: 'Excellence Awards' },
   { id: '4', imageUrl: 'https://yt3.ggpht.com/tewxaZQiax607kE9HoaWNy3qBfVsxqcv5uY1tteXT5Y9O9B2T9augudrvVaiKiOqxgyk7iVTSalPdQ=s800-c-fcrop64=1,00000000ffffffff-rw-nd-v1', caption: '10K Subs' }
