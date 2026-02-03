@@ -9,9 +9,9 @@ export const INITIAL_VIDEOS: VideoItem[] = [
 ];
 
 export const INITIAL_GALLERY: GalleryItem[] = [
-  { id: '1', imageUrl: 'https://drive.google.com/file/d/1WObJPG3iG4DuWaGI3ExyIVo_TLrconeM/view?usp=drive_link', caption: '18000 Subscribers' },
-  { id: '2', imageUrl: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800', caption: 'Annual Motivation Seminar' },
-  { id: '3', imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800', caption: 'Excellence Awards' },
+  { id: '1', imageUrl: 'https://share.google/dicHDGwOOvyyRWDqY', caption: '18000 Subscribers' },
+  { id: '2', imageUrl: 'https://share.google/9zDJ4LCcUwqmuaG7U', caption: 'Annual Motivation Seminar' },
+  { id: '3', imageUrl: 'https://yt3.ggpht.com/jxNtGpwbStBqiWdlhWa4AGS8XM_oDA_in58MahnSsUEqFYq69c-oTrcP2KN9oTgOP3_GRV5uMGoAPQ=s800-rw-nd-v1', caption: 'Excellence Awards' },
   { id: '4', imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800', caption: 'Community Growth' }
 ];
 
