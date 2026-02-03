@@ -22,7 +22,7 @@ export const INITIAL_SITE_CONFIG: SiteConfig = {
   aboutText: 'Rasu Motivation was founded with a single purpose: to provide the highest quality motivational content in the local language, helping students overcome barriers and reach their academic and personal goals.',
   logoText: 'RASU MOTIVATION',
   youtubeLink: 'https://www.youtube.com/@Rasu_Motivation/featured',
-  logoUrl: 'https://yt3.ggpht.com/ENPuQ3oW7yGJ3eFure_a5D-FsJYwLPyZ1WyUw0JmU4O2U_xv2gVNAmNNOcNuPDFR6WllMesCHN8=s108-c-k-c0x00ffffff-no-rj'
+  logoUrl: ''
 };
 
 export const ADMIN_CREDENTIALS = {
