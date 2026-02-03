@@ -2,14 +2,14 @@
 import { VideoItem, GalleryItem, SiteConfig } from './types';
 
 export const INITIAL_VIDEOS: VideoItem[] = [
-  { id: '1', title: 'Start Your Journey Today', youtubeId: 'dQw4w9WgXcQ' },
-  { id: '2', title: 'The Power of Discipline', youtubeId: 'tgbNymZ7vqY' },
-  { id: '3', title: 'Why You Should Never Give Up', youtubeId: '7X8mCDy7vH0' },
-  { id: '4', title: 'Mindset for Success', youtubeId: '9bZkp7q19f0' }
+  { id: '1', title: 'පොතක් අතට ගත්ත ගමන් ඔයාට නින්ද යනවනම් මෙන්න විසඳුම | Chemistry | Amila Dasanayake', youtubeId: 'lw70SFWb6tg' },
+  { id: '2', title: '2025 O/L වීභාගයට තව මාසයයි. තාමත් වැඩ කරන්නෙ නැති ළමයි මේක බලන්න. #motivation #2026ol #2025ol', youtubeId: 'zJWkEOEf61U' },
+  { id: '3', title: '"ඔයාගේ මැරුණු වීරයාට ආය පණ දෙන්නයි මේ කියන්නෙ" ❤️⚡  @AmilaDasanayake  FFF to AAA | Chemistry', youtubeId: 'w-i94OKHC2A' },
+  { id: '4', title: 'පස්සෙ පසු තැවෙන්න තියන්න එපා  ✨️❤️⚡ @AnuradhaPerera   | FFF to AAA', youtubeId: 'euuDUN90Tz8' }
 ];
 
 export const INITIAL_GALLERY: GalleryItem[] = [
-  { id: '1', imageUrl: 'https://images.unsplash.com/photo-1523240715630-991f2e81230c?auto=format&fit=crop&q=80&w=800', caption: 'Student Achievement 2023' },
+  { id: '1', imageUrl: 'https://drive.google.com/file/d/1WObJPG3iG4DuWaGI3ExyIVo_TLrconeM/view?usp=drive_link', caption: '18000 Subscribers' },
   { id: '2', imageUrl: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800', caption: 'Annual Motivation Seminar' },
   { id: '3', imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800', caption: 'Excellence Awards' },
   { id: '4', imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800', caption: 'Community Growth' }
