@@ -9,10 +9,10 @@ export const INITIAL_VIDEOS: VideoItem[] = [
 ];
 
 export const INITIAL_GALLERY: GalleryItem[] = [
-  { id: '1', imageUrl: 'https://share.google/dicHDGwOOvyyRWDqY', caption: '18000 Subscribers' },
-  { id: '2', imageUrl: 'https://share.google/9zDJ4LCcUwqmuaG7U', caption: 'Annual Motivation Seminar' },
+  { id: '1', imageUrl: 'https://i.ytimg.com/an/aJ45q-LVMthB7Gtm1-CxiA/featured_channel.jpg?v=676d4d81', caption: '1 Year Birthday' },
+  { id: '2', imageUrl: 'https://yt3.ggpht.com/l9h0aTSPb5FVAO5A7vfGaagdS2tw8VTmnA4r6ilRiv2bESFMAYaO-TAWWXx1ytG8UM4kH8xVJNpiSA=s800-c-fcrop64=1,00000000ffffffff-rw-nd-v1', caption: 'Motivational postr' },
   { id: '3', imageUrl: 'https://yt3.ggpht.com/jxNtGpwbStBqiWdlhWa4AGS8XM_oDA_in58MahnSsUEqFYq69c-oTrcP2KN9oTgOP3_GRV5uMGoAPQ=s800-rw-nd-v1', caption: 'Excellence Awards' },
-  { id: '4', imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800', caption: 'Community Growth' }
+  { id: '4', imageUrl: 'https://yt3.ggpht.com/tewxaZQiax607kE9HoaWNy3qBfVsxqcv5uY1tteXT5Y9O9B2T9augudrvVaiKiOqxgyk7iVTSalPdQ=s800-c-fcrop64=1,00000000ffffffff-rw-nd-v1', caption: '10K Subs' }
 ];
 
 export const INITIAL_SITE_CONFIG: SiteConfig = {
@@ -22,7 +22,7 @@ export const INITIAL_SITE_CONFIG: SiteConfig = {
   aboutText: 'Rasu Motivation was founded with a single purpose: to provide the highest quality motivational content in the local language, helping students overcome barriers and reach their academic and personal goals.',
   logoText: 'RASU MOTIVATION',
   youtubeLink: 'https://www.youtube.com/@Rasu_Motivation/featured',
-  logoUrl: 'https://yt3.googleusercontent.com/ytc/AIdro_mC_5vR8V7iG0z2v8q4_p9w-8F_K_X_G_W_P_G_w=s176-c-k-c0x00ffffff-no-rj'
+  logoUrl: 'https://i.ytimg.com/an/aJ45q-LVMthB7Gtm1-CxiA/featured_channel.jpg?v=676d4d81'
 };
 
 export const ADMIN_CREDENTIALS = {
