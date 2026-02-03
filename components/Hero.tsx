@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 10, repeat: Infinity, repeatType: 'reverse' }}
-          src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=2000" 
+          src="https://yt3.ggpht.com/WY79RmpOrOFl3eE3ImKoDiqRvzBKCC4--ImSz21AAY8qg_y0l5ZnpoltHRZGFGdDa6hOcsik-_8G=s800-rw-nd-v1" 
           className="w-full h-full object-cover" 
           alt="Motivational background"
         />
