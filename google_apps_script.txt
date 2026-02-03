@@ -1,0 +1,51 @@
+
+/* 
+INSTRUCTIONS:
+1. Open Google Sheets.
+2. Go to Extensions > App Script.
+3. Paste the code below.
+4. Deploy as a Web App (Access: Anyone).
+5. Copy the Web App URL and replace GOOGLE_APPS_SCRIPT_URL in constants.tsx.
+*/
+
+function doPost(e) {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName("Users") || ss.insertSheet("Users");
+  
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(["Name", "Phone", "Password", "Date"]);
+  }
+  
+  try {
+    var data = JSON.parse(e.postData.contents);
+    var action = data.action;
+
+    if (action === "register") {
+      sheet.appendRow([data.name, data.phone, data.password, new Date()]);
+      return ContentService.createTextOutput(JSON.stringify({ status: "success", message: "User registered" }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+    
+    if (action === "login") {
+      var users = sheet.getDataRange().getValues();
+      for (var i = 1; i < users.length; i++) {
+        if (users[i][1].toString() === data.phone.toString() && users[i][2].toString() === data.password.toString()) {
+          return ContentService.createTextOutput(JSON.stringify({ 
+            status: "success", 
+            user: { name: users[i][0], phone: users[i][1] } 
+          })).setMimeType(ContentService.MimeType.JSON);
+        }
+      }
+      return ContentService.createTextOutput(JSON.stringify({ status: "error", message: "Invalid credentials" }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+    
+  } catch (err) {
+    return ContentService.createTextOutput(JSON.stringify({ status: "error", message: err.toString() }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+function doGet(e) {
+  return ContentService.createTextOutput("Rasu Motivation API Active").setMimeType(ContentService.MimeType.TEXT);
+}

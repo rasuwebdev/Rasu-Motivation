@@ -1,0 +1,8 @@
+{
+  "name": "Rasu Motivation Platform",
+  "description": "A high-performance professional motivational content platform featuring video feeds, achievement galleries, and student registration for the Rasu Motivation YouTube channel.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
